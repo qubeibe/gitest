@@ -15,7 +15,7 @@ public class TestControler {
 
     @RequestMapping(value="/hi",method = RequestMethod.GET)
     public String testFeign(@RequestParam String name){
-        System.out.println(12);
+        System.out.println(12343443);
         return providerClient.testFeign(name);
     }
 
